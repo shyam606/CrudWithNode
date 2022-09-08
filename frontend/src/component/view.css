@@ -1,0 +1,16 @@
+.addEmploye{
+    text-align: center;
+    margin-top: 2%;
+}
+.addEmploye a {
+    text-decoration: none;
+}
+.MainFilter{
+    margin-top: 2%;
+}
+.MainFilter .css-q8hpuo-MuiFormControl-root{
+    width: 14%;
+}
+.tbleBody a{
+    text-decoration: none;
+}

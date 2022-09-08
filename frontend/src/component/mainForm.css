@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.round{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.circle{
+    width: 70px;
+    border: 1px solid blue;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form_area{
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 500px; */
+    box-shadow: 2px 5px 7px -2px grey;
+}
+.steps_div{
+    height: 100px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.form_Main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_main{
+    /* border: 1px solid green; */
+    /* height: 300px; */
+    width: 83%;
+    margin-top: 5%;
+    display: flex;
+}
+.left_part{
+    
+    /* border: 1px solid purple; */
+    /* height: 100px; */
+    width: 50%;
+    margin-bottom: 4%;
+
+}
+.right_part{
+    /* border: 1px solid yellow; */
+    /* height: 100px; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.labels{
+    margin-bottom: 2%;
+}
+.fields{
+    margin-top: 2%;
+}
+.fields .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 0em;
+}
+.fields .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 100%;
+}
+.btnProceed:hover{
+    background-color:#9259d0 !important;
+}
+.fields .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    height: 44px;
+}
+/* .fields input{
+    height: 32px;
+    width: 100%;
+} */
